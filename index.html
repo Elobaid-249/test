@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tribute to Osman Digna, Sudanese Military Leader">
+    <title>Tribute to Osman Digna</title>
+    <style>
+        /* General Styles */
+        img {
+            width: 60%;
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0038f0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #143bd9;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .bio img,
+        .gallery img {
+            width: 40%; /* Resize to 80% of the container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .timeline {
+            margin-top: 20px;
+        }
+
+        .timeline ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .timeline li {
+            padding: 10px;
+            background-color: #e8f5e9;
+            margin-bottom: 10px;
+            border-left: 5px solid #143bd9;
+            font-size: 16px;
+        }
+
+        .testimonial-form input,
+        .testimonial-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .testimonial-form button {
+            padding: 10px 20px;
+            background-color: #4c60af;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .testimonial-form button:hover {
+            background-color: #143bd9;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            nav a {
+                padding: 10px 15px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .timeline li {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tribute to Osman Digna</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#bio">Biography</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- Homepage Section -->
+        <section id="home" class="section">
+            <h2>Welcome to the Tribute Website</h2>
+            <img src="osman.jpg" alt="Osman Digna in the field">
+            <p>This website is dedicated to Osman Digna, a prominent Sudanese military leader and one of the key figures in the Mahdist War.</p>
+        </section>
+
+        <section id="bio" class="section bio">
+            <h2>Biography</h2>
+            <img src="osman2.jpg" alt="Osman Digna Portrait">
+            <p>Osman Digna was born in Sudan in 1840. He was a leader in the Mahdist movement and played a significant role in resisting the British-Egyptian forces during the Mahdist War. Known for his military acumen, he was a key commander in the Sudanese revolt against colonial rule.</p>
+            <p>Digna's leadership in the defense of Sudan became legendary, as he led many successful campaigns that contributed significantly to the success of the Mahdist revolution in the late 19th century.</p>
+        </section>
+
+        <section id="legacy" class="section">
+            <h2>Legacy</h2>
+            <img src="osman3.jpeg" alt="Osman Digna in battle">
+            <p>Osman Digna's legacy is deeply intertwined with the history of Sudanese resistance against colonialism. His leadership inspired future generations of Sudanese fighters and revolutionaries, and he remains a symbol of resistance and patriotism in Sudanese culture.</p>
+            <h3>Timeline of Key Events</h3>
+            <div class="timeline">
+                <ul>
+                    <li>1881: Osman Digna joins the Mahdist movement and becomes a prominent leader.</li>
+                    <li>1884: Led several successful campaigns against British-Egyptian forces.</li>
+                    <li>1885: Played a pivotal role in the fall of Khartoum and the rise of the Mahdist state.</li>
+                    <li>1898: After the fall of the Mahdist state, Osman Digna continued to resist British control, but he was eventually captured and exiled.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery">
+            <h2>Photo & Media Gallery</h2>
+            <img src="osman4.jpg" alt="Mahdist Revolt">
+            <p>Images and media of Osman Digna and the Mahdist movement.</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Leave a Tribute</h2>
+            <img src="osman5.jpg" alt="Osman Digna at camp">
+            <p>Feel free to share your thoughts and memories of Osman Digna.</p>
+            <div class="testimonial-form">
+                <input type="text" placeholder="Your Name" required>
+                <textarea placeholder="Your Tribute" required></textarea>
+                <button type="submit">Submit Tribute</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tribute to Osman Digna.This webpage development By Elobaid Babekir </p>
+    </footer>
+</body>
+
+</html>
